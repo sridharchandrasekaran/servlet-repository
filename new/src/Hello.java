@@ -32,6 +32,7 @@ public class Hello extends HttpServlet {
 		PrintWriter pw=response.getWriter();
 		pw.println("<html><body>");
 		pw.println("welcome");
+		pw.println("To JAVA");
 		pw.println("</body></html>");
 		pw.close();
 		
