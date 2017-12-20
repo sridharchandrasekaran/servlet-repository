@@ -33,6 +33,7 @@ public class Hello extends HttpServlet {
 		pw.println("<html><body>");
 		pw.println("welcome");
 		pw.println("To JAVA");
+		pw.println("WORLD");
 		pw.println("</body></html>");
 		pw.close();
 		
